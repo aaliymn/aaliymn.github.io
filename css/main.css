@@ -52,10 +52,10 @@ h1:hover {
 #home img {
   max-width: 100%;
   height: auto;
+  transition: 0.5s ease;
 }
 #home .mypic:hover {
-  transition: 0.5s;
-  transform: scale(1.5);
+  transform: scale(1.02);
 }
 #home .name h2 {
   margin-bottom: 0.5rem;

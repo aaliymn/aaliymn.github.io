@@ -35,19 +35,19 @@
 }
 .btn-primary {
   background: rgb(0, 0, 212);
+  transition: 0.25s;
 }
 .btn-primary:hover {
   color: rgb(0, 0, 212);
   background: white;
-  transition: 0.25s;
 }
 .btn-primary-dark {
   background: darkblue;
+  transition: 0.25s;
 }
 .btn-primary-dark:hover {
   color: rgb(0, 0, 212);
   background: white;
-  transition: 0.25s;
 }
 .btn-block {
   width: 100%;
