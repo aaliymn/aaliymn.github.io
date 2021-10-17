@@ -1,0 +1,71 @@
+/* Text */
+
+.fontsource {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+
+.heading-small {
+  font-size: 1.25rem;
+}
+.heading-medium {
+  font-size: 1.5rem;
+}
+.heading-big {
+  font-size: 1.75rem;
+}
+.unselect {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  margin-top: 1.25rem;
+  padding: 0.8rem 3rem;
+  border-radius: 7px;
+  letter-spacing: 0.5px;
+  box-shadow: 10px 5px 60px rgba(0, 0, 0, 0.555);
+}
+.btn-primary {
+  background: rgb(0, 0, 212);
+}
+.btn-primary:hover {
+  color: rgb(0, 0, 212);
+  background: white;
+  transition: 0.25s;
+}
+.btn-primary-dark {
+  background: darkblue;
+}
+.btn-primary-dark:hover {
+  color: rgb(0, 0, 212);
+  background: white;
+  transition: 0.25s;
+}
+.btn-block {
+  width: 100%;
+}
+.shadow {
+  border-radius: 50px;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+/* Colors */
+
+.bg-dark-blue {
+  background: darkblue;
+}
+.bg-light-blue {
+  background: rgb(0, 0, 212);
+}
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+#navbar {
+  flex-direction: column;
+  padding-top: 0.6rem;
+  padding-bottom: 1.5rem;
+  overflow: hidden;
+  height: 90px;
+}
+#navbar ul li a {
+  padding: 0.49rem;
+}
