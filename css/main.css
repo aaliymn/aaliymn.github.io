@@ -53,6 +53,9 @@ h1:hover {
   max-width: 100%;
   height: auto;
 }
+#home .mypic:hover {
+  transform: scale(1.1);
+}
 #home .name h2 {
   margin-bottom: 0.5rem;
   margin-top: 1.5rem;
