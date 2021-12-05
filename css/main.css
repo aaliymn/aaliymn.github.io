@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 html {
-  background-image: linear-gradient(white, #f0f0f0);
+  background: linear-gradient(90deg, #676b68 21px, transparent 1%) center,
+    linear-gradient(#676b68 21px, transparent 1%) center, #8c8f8d;
+  background-size: 23px 23px;
   font-family: "Source Sans Pro", sans-serif;
 }
 html,
@@ -53,10 +55,17 @@ h1:hover {
   overflow: auto;
 }
 
-#home img {
+/* #home img {
   max-width: 100%;
   height: auto;
   transition: 0.5s ease;
+} */
+#home .mypic {
+  align-self: flex-start;
+  max-width: 20%;
+  height: auto;
+  transition: 0.5s ease;
+  border-radius: 10%;
 }
 #home .mypic:hover {
   transform: scale(1.02);
