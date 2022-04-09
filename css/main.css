@@ -38,11 +38,21 @@ h1:hover {
   align-items: center;
 }
 #navbar ul li a {
-  padding: 1rem;
+  padding: 1.75rem;
+  font-size: 1rem;
+  font-weight: normal;
+  transition: 0.25s ease;
+
 }
 #navbar ul li a:hover {
-  background-color: rgb(0, 0, 212);
-  border-radius: 4px;
+  padding: 1.75rem;
+  background-color: white;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: 0.25s ease;
+  /* background-color: rgb(0, 0, 212);
+  border-radius: 4px; */
 }
 /* Home */
 #home {
